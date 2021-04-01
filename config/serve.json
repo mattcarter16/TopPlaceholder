@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://aptitude4dev.sharepoint.com/sites/HubSite",
+      "customActions": {
+        "ea13d81c-ea1e-4a47-b267-576e59211fd8": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "topPlaceholder": {
+      "pageUrl": "https://aptitude4dev.sharepoint.com/sites/HubSite",
+      "customActions": {
+        "ea13d81c-ea1e-4a47-b267-576e59211fd8": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

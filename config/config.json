@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "top-placeholder-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/topPlaceholder/TopPlaceholderApplicationCustomizer.js",
+          "manifest": "./src/extensions/topPlaceholder/TopPlaceholderApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TopPlaceholderApplicationCustomizerStrings": "lib/extensions/topPlaceholder/loc/{locale}.js"
+  }
+}
